@@ -181,12 +181,11 @@
         .badge-ping {
           position: absolute;
           inset: 0;
-          width: 0.75rem;
-          height: 0.75rem;
+          width: 0.95rem;
+          height: 0.95rem;
           background: linear-gradient(135deg, var(--hero-primary), var(--hero-accent));
           border-radius: 50%;
-          animation: ping 2s infinite;
-          opacity: 0.3;
+          animation: pulse 2s infinite;
         }
       }
 
