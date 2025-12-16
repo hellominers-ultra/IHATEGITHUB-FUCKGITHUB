@@ -232,52 +232,52 @@
   }
 
 .hero-title {
-  font-size: clamp(2rem, 5vw, 4.5rem);
-  font-weight: 900;
-  line-height: 1.1;
-  letter-spacing: -0.025em;
-  margin-bottom: 1.5rem;
-  /* --- ADDED DROP SHADOW HERE --- */
-  text-shadow: 0 10px 18px rgba(0, 0, 0, 1);
+  font-size: clamp(2rem, 5vw, 4.5rem);
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  margin-bottom: 1.5rem;
+  text-shadow: 0 10px 18px rgba(0, 0, 0, 1);
 
-  .title-prefix,
-  .title-suffix {
-    color: var(--hero-text);
-    opacity: 1;
-  }
-  
-    .title-main {
-      position: relative;
-      display: inline-block;
+  .title-prefix,
+  .title-suffix {
+    color: var(--hero-text);
+    opacity: 1;
+  }
+  
+    .title-main {
+      position: relative;
+      display: inline-block;
 
-      .title-main-text {
-        background: linear-gradient(135deg, var(--hero-primary), var(--hero-accent), var(--hero-primary));
-        background-clip: text;
-        -webkit-background-clip: text;
-        filter: drop-shadow(0 0.125rem 0.25rem rgba(0, 0, 0, 0.1));
-      }
+      .title-main-text {
+        background: linear-gradient(135deg, var(--hero-primary), var(--hero-accent), var(--hero-primary));
+        background-clip: text;
+        -webkit-background-clip: text;
+        filter: drop-shadow(0 0.125rem 0.25rem rgba(0, 0, 0, 0.1));
+      }
 
-      .title-glow {
-        position: absolute;
-        inset: -0.25rem;
-        background: linear-gradient(135deg, rgba(var(--hero-primary-rgb), 0.2), rgba(var(--hero-accent-rgb), 0.2), rgba(var(--hero-primary-rgb), 0.2));
-        filter: blur(1.5rem);
-        opacity: 0.5;
-        z-index: -1;
-      }
-    }
-  }
+      .title-glow {
+        position: absolute;
+        inset: -0.25rem;
+        background: linear-gradient(135deg, rgba(var(--hero-primary-rgb), 0.2), rgba(var(--hero-accent-rgb), 0.2), rgba(var(--hero-primary-rgb), 0.2));
+        filter: blur(1.5rem);
+        opacity: 0.5;
+        z-index: -1;
+      }
+    }
+  }
 
-  .hero-description {
-    font-size: clamp(1.125rem, 2vw, 1.5rem);
-    color: var(--hero-text-muted);
-    opacity: 1;
-    max-width: 48rem;
-    margin: 0 auto;
-    line-height: 1.6;
-    font-weight: 300;
-    text-shadow: 0 10px 18px rgba(0, 0, 0, 1);
-  }
+  .hero-description {
+    font-size: clamp(1.125rem, 2vw, 1.5rem);
+    color: var(--hero-text-muted);
+    opacity: 1;
+    max-width: 48rem;
+    margin: 0 auto;
+    line-height: 1.6;
+    **font-weight: 500;**
+    **font-family: Arial, Helvetica, sans-serif;**
+    text-shadow: 0 10px 18px rgba(0, 0, 0, 1);
+  }
 
   // Button styles
   .hero-buttons {
