@@ -197,6 +197,31 @@
         opacity: 1.0;
         letter-spacing: 0.025em;
       }
+
+      .badge-icons {
+        display: flex;
+        align-items: center;
+        gap: 0.25rem;
+
+        .badge-icon-1,
+        .badge-icon-2 {
+          width: 1rem;
+          height: 1rem;
+          transition: all 0.3s ease;
+        }
+
+        .badge-icon-1 {
+          color: var(--hero-primary);
+          opacity: 0.7;
+        }
+
+        .badge-icon-2 {
+          color: var(--hero-accent);
+          opacity: 0.6;
+          width: 0.75rem;
+          height: 0.75rem;
+        }
+      }
     }
   }
 
