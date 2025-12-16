@@ -231,20 +231,24 @@
     margin-bottom: 2.5rem;
   }
 
-  .hero-title {
-    font-size: clamp(2rem, 5vw, 4.5rem);
-    font-weight: 900;
-    line-height: 1.1;
-    letter-spacing: -0.025em;
-    margin-bottom: 1.5rem;
+.hero-title {
+  font-size: clamp(2rem, 5vw, 4.5rem);
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.025em;
+  margin-bottom: 1.5rem;
 
-    .title-prefix,
-    .title-suffix {
-      color: var(--hero-text);
-      opacity: 1;
-      filter: drop-shadow(0 0.125rem 0.25rem rgba(0, 0, 0, 0.1));
-    }
+  /* --- ADDED DROP SHADOW HERE --- */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
 
+  .title-prefix,
+  .title-suffix {
+    color: var(--hero-text);
+    opacity: 1;
+    /* You can use text-shadow here too for consistency if needed */
+    filter: drop-shadow(0 0.125rem 0.25rem rgba(0, 0, 0, 0.1));
+  }
+  
     .title-main {
       position: relative;
       display: inline-block;
