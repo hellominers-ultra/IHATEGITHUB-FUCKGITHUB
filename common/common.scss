@@ -237,16 +237,15 @@
   line-height: 1.1;
   letter-spacing: -0.025em;
   margin-bottom: 1.5rem;
-
   /* --- ADDED DROP SHADOW HERE --- */
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); 
+  text-shadow: 0 6px 12px rgba(0, 0, 0, 0.35);
 
   .title-prefix,
   .title-suffix {
     color: var(--hero-text);
     opacity: 1;
     /* You can use text-shadow here too for consistency if needed */
-    filter: drop-shadow(0 0.125rem 0.25rem rgba(0, 0, 0, 0.1));
+    filter: text-shadow(0 6px 12px rgba(0, 0, 0, 0.35);
   }
   
     .title-main {
